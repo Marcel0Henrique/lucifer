@@ -1,0 +1,176 @@
+@font-face {
+    font-family: lucifer;
+    src: url("../font/lucifer.ttf") format('truetype');
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;  
+}
+
+body{
+    background-color: #1e1e1e;
+    
+}
+
+
+.header-bg{
+    max-width: 1920;
+    max-height: 480px;
+    height: auto;
+    width: auto;
+
+}
+
+
+
+.texto{
+    position: absolute;
+    font-family: "lucifer";
+    font-size: 50px;
+    color: white;
+    left: 7rem;
+    top: 22rem;
+}
+
+
+
+.texto:hover{
+    color: black;
+}
+
+
+.nav-img{
+    max-width: 1920;
+    max-height: 480px;
+    height: auto;
+    width: auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    font-family: "lucifer";
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+
+
+.menu-item a{
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.menu-item a:hover{
+    color: #ff0000;
+}
+
+
+
+.menu-item
+{   
+    text-align: center;
+    display:inline;
+}
+
+
+
+.sobre-container{
+    background-color: #1e1e1e;
+    color: white;
+    line-height: 20px;
+
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 7rem;
+    margin-bottom: 5vh;
+    
+    width: 75rem;
+    position: relative;
+    
+
+}
+
+
+.img-lucifer{
+    display: flex;
+    width: 20vh;
+}
+
+
+.img-lucifer img{
+    float: left;
+    width: 20vh;
+    margin-right: 45px;
+}
+
+
+
+
+.sobre-conteudo{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.info{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+
+    border: 2px solid white;
+    background-color: #191919;
+
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+/*
+
+footer{  /* Rodapé fico no final da tela 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+
+    
+    
+}*/
+
+/*
+footer li{
+    margin-right: 5vh;
+}
+
+*/
+
+
